@@ -21,11 +21,13 @@ h2 {
 }
 
 h3 {
+  line-height: 1;
   font-size: 1.75rem;
   font-weight: normal;
   font-family: "Montserrat", sans-serif;
   line-height: 1;
   color: #5edfff;
+  margin-bottom: 0;
 }
 
 .cloud1 {
@@ -55,6 +57,7 @@ h3 {
   margin-top: 50px;
 }
 
+
 table.tech-table {
   font-size: 20px;
   margin-left: auto;
@@ -71,4 +74,9 @@ table.tech-table {
 }
 
 .bottom-container {
+}
+
+table.contact-links-table {
+  margin-left: auto;
+  margin-right: auto;
 }
