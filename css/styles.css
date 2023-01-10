@@ -67,11 +67,18 @@ table.tech-table {
   margin-right: auto;
 }
 
+.tech-icons {
+  width: 25px;
+}
 .analytics {
   margin-top: 0;
 }
 
 .databases {
+  margin-top: 0;
+}
+
+.services {
   margin-top: 0;
 }
 
