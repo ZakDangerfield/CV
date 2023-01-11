@@ -33,7 +33,7 @@ h3 {
 .cloud1 {
   position: absolute;
   right: 200px;
-  top: 250px;
+  top: 350px;
 }
 .cloud2 {
   position: absolute;
@@ -42,7 +42,7 @@ h3 {
 }
 
 .mountain {
-  height: 667px;
+  height: 33.313rem;
   top: 15px;
   position: relative;
 }
