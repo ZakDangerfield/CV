@@ -4,6 +4,14 @@ body {
   font-family: "Merriweather", serif;
 }
 
+hr {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border: none;
+  border-top: 6px dotted #98a8f8;
+  width: 50px;
+}
+
 h1 {
   color: #5edfff;
   font-family: "Sacramento", cursive;
@@ -14,6 +22,7 @@ h1 {
 }
 
 h2 {
+  margin-bottom: 0;
   line-height: 1;
   font-family: "Montserrat", sans-serif;
   font-size: 2.188rem;
@@ -21,7 +30,6 @@ h2 {
 }
 
 h3 {
-  line-height: 1;
   font-size: 1.75rem;
   font-family: "Montserrat", sans-serif;
   font-weight: normal;
@@ -37,26 +45,28 @@ h3 {
   width: 21.875rem;
 }
 .cloud2 {
-  position: absolute;
   left: 200px;
+  position: absolute;
   top: 50px;
   width: 21.875rem;
 }
 
 .mountain {
   height: 32.27rem;
-  top: 15px;
   position: relative;
+  top: 15px;
 }
 
 .top-container {
-  font-weight: normal;
   background-color: #ecfcff;
+  font-weight: normal;
   position: relative;
   padding-top: 300px;
 }
 
-.tech-stack-row {
+.contact-me {
+  margin-left: 250px;
+  margin-right: 250px;
 }
 
 .zak-profile-img {
@@ -86,15 +96,40 @@ table.tech-table {
 
 .middle-container {
   background-color: #ecfcff;
+  padding-bottom: 50px;
 }
 
 .profile {
+  line-height: 2;
   margin-left: 300px;
   margin-right: 300px;
-  line-height: 2;
 }
 
 .bottom-container {
+  background-color: #5edfff;
+  padding-bottom: 20px;
+}
+
+.btn {
+  -webkit-border-radius: 26;
+  -moz-border-radius: 26;
+  border-radius: 26px;
+  font-family: Arial;
+  color: #ecfcff;
+  font-size: 23px;
+  background: #5edfff;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3e64ff;
+  background-image: -webkit-linear-gradient(top, #3e64ff, #b2fcff);
+  background-image: -moz-linear-gradient(top, #3e64ff, #b2fcff);
+  background-image: -ms-linear-gradient(top, #3e64ff, #b2fcff);
+  background-image: -o-linear-gradient(top, #3e64ff, #b2fcff);
+  background-image: linear-gradient(to bottom, #3e64ff, #b2fcff);
+  text-decoration: none;
 }
 
 table.contact-links-table {
