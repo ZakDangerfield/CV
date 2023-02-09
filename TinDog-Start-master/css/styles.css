@@ -1,23 +1,164 @@
+body {
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+
 #title {
   background-color: #ff4c68;
   font-size: 1.5rem;
+  color: #fff;
+  padding-bottom: 13%;
 }
 
 h1 {
-  font-family: "Montserrat";
+  /* font-family: "Montserrat"; */
   font-size: 4rem;
+  font-weight: 900;
   line-height: 1.5;
-  color: azure;
+}
+h2 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  color: #2b4865;
+}
+
+p {
+  font-family: "Montserrat";
+  font-weight: 600;
+  color: #8f8f8f;
 }
 
 .container-fluid {
   padding: 3% 15%;
 }
 
+/*   Navigation Bar    */
+
+.nav-item {
+  margin-left: 30px;
+}
 a.navbar-brand.navbar-dark {
-  font-size: 2rem;
+  font-size: 3rem;
+  font-family: "Ubuntu";
+  font-weight: bold;
 }
 nav.navbar.navbar-expand-lg.navbar-dark {
   margin-right: 20px;
   margin-bottom: 6%;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 0;
+}
+
+/* Title image */
+.title-image {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  left: 55%;
+}
+
+/* Sub headings */
+#features {
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+}
+
+.subhead-icon {
+  padding-bottom: 1.25rem;
+  color: #ef8172;
+}
+.subhead-icon:hover {
+  padding-bottom: 1.5rem;
+  color: #ec2f2f;
+}
+
+.subhead-col {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+/* Testimonial section */
+
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+  text-align: center;
+  font-family: "Montserrat";
+  padding: 1% 15%;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Press section */
+
+#press {
+  background-color: #ef8172;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 12%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing section */
+
+#pricing {
+  text-align: center;
+  padding: 5% 15%;
+}
+
+.pricing-table {
+  padding-top: 5%;
+}
+
+.card-title {
+  color: #ef8172;
+}
+
+.pricing-heading {
+  color: #2b4865;
+}
+
+.pricing-button {
+  background-color: #2b4865;
+  color: #fff;
+}
+
+.pricing-button:hover {
+  background-color: #ff4c68;
+}
+
+.mastiff-plan {
+  background-color: #ff4c68;
+}
+
+.mastiff-card-title {
+  color: #ff4c68;
+}
+
+.card-header {
+  font-size: 2rem;
+  background-color: #ef8172;
 }
